@@ -6,3 +6,52 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: #cbc4c4;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#live-date-time {
+    padding-top: 9px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #333;
+    /* Add more styles as needed */
+}
+
+
+
+

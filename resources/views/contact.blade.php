@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <form action="{{ route('contact.store') }}" method="post">
         @csrf
         <input type="text" name="name" placeholder="Your Name">
