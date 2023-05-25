@@ -130,24 +130,6 @@
         </div>
     </footer>
 
-    <script>
-        $(document).ready(function() {
-            $('.contact-link').click(function(e) {
-                e.preventDefault();
-                var url = $(this).attr('href');
 
-                $.get(url, function(data) {
-                    $('body').append(data);
-                    $('#contact-form').fadeIn();
-                });
-            });
-
-            $(document).on('click', '.close-popup', function() {
-                $('#contact-form').fadeOut(function() {
-                    $(this).remove();
-                });
-            });
-        });
-    </script>
 
 @endsection
