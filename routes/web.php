@@ -20,7 +20,7 @@ Route::get('/', [NewsController::class, 'index'])->name('home');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [NewsController::class, 'index'])->name('home');
 
 // ruta del formulario de contacto
 Route::post('/contact', 'ContactController@store')->name('contact.store');
